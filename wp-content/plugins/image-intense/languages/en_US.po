@@ -1,0 +1,794 @@
+# Copyright (C) 2019 Superfly
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Image Intense 4.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/image-intense\n"
+"POT-Creation-Date: 2019-01-15 04:34:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/ImageIntense/ImageIntense.php:9
+msgid "Image Intense"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:94
+msgid "Image"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:95
+msgid "Text"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:96
+msgid "Link"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:97
+#: includes/modules/ImageIntense/ImageIntense.php:167
+msgid "Button"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:103
+#: includes/modules/ImageIntense/ImageIntense.php:333
+msgid "Overlay"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:104
+msgid "Alignment"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:106
+msgid "Sizing"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:115
+msgid "Animation"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:119
+msgid "Attributes"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:130
+msgid "Title"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:140
+msgid "Caption"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:331
+msgid "Normal"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:332
+msgid "Multiply"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:334
+msgid "Screen"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:335
+msgid "Darken"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:336
+msgid "Lighten"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:337
+msgid "Color dodge"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:338
+msgid "Color burn"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:339
+msgid "Hard light"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:340
+msgid "Soft light"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:341
+msgid "Difference"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:342
+msgid "Exclusion"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:343
+msgid "Hue"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:344
+msgid "Saturation"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:345
+msgid "Color"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:346
+msgid "Luminosity"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:351
+msgid "Auckland"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:352
+msgid "Berlin"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:353
+msgid "Cali"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:354
+msgid "Copenhagen"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:355
+msgid "Dallas"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:356
+msgid "Douala"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:357
+msgid "Hanoi"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:358
+msgid "Jerusalem"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:359
+msgid "Kiev"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:360
+msgid "Lisbon"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:361
+msgid "London"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:362
+msgid "Madison"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:363
+msgid "Mumbai"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:364
+msgid "Oslo"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:365
+msgid "Paris"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:366
+msgid "Portland"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:367
+msgid "Rochester"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:368
+msgid "Seattle"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:369
+msgid "Seoul"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:370
+msgid "Sydney"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:371
+msgid "Taipei"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:372
+msgid "Toronto"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:377
+msgid "Top Left"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:378
+msgid "Top Center"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:379
+msgid "Top Right"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:380
+msgid "Center Left"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:381
+msgid "Center Center"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:382
+msgid "Center Right"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:383
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:384
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:385
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:390
+msgid "Horizontal →"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:391
+msgid "Vertical ↓"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:392
+msgid "Diagonal ↘"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:393
+msgid "Diagonal ↗"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:394
+msgid "Radial ○"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:424
+msgid "Left To Right"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:425
+msgid "Right To Left"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:426
+msgid "Top To Bottom"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:427
+msgid "Bottom To Top"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:428
+msgid "Fade In"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:429
+msgid "No Animation"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:454
+msgid "Image URL"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:457
+msgid "Find an image"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:458
+msgid "Choose an Image"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:459
+msgid "Set As Image"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:464
+msgid ""
+"Click FIND AN IMAGE to access your media library to select or upload your "
+"desired image. Or, type in the URL of the image you would like to display."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:468
+msgid "Media size"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:476
+msgid "Image Alt Text"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:479
+msgid ""
+"This sets the text for the image's HTML 'alt' attribute. A short "
+"description of your image can be placed here for SEO and accessibility "
+"purposes. Note that you must specify this if you want it to be part of your "
+"HTML, even if you have done so in the WP media library."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:484
+msgid "Image Title Text"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:487
+msgid ""
+"This sets the text for the image's HTML 'title' attribute. Note that you "
+"must specify this if you want it to be part of your HTML, even if you have "
+"done so in the WP media library."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:492
+msgid "Intense Hover Style"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:500
+msgid "Overlay Title Part 1"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:507
+msgid "Overlay Title Part 2"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:510
+msgid ""
+"This is the second (bolded in most hover styles) half of the overlay title "
+"text. Normally this is best with just one or two words."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:514
+msgid "Overlay Caption Text"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:517
+msgid ""
+"This is the typically smaller overlay caption text. The number of words you "
+"should use here depends on the Intense Hover Style selected above along "
+"with the size of the column this module is in. Most (but not all) Intense "
+"Hover Styles include a caption."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:521
+msgid "Caption Orientation"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:525
+#: includes/modules/ImageIntense/ImageIntense.php:659
+msgid "Left"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:526
+#: includes/modules/ImageIntense/ImageIntense.php:660
+msgid "Center"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:527
+#: includes/modules/ImageIntense/ImageIntense.php:661
+msgid "Right"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:528
+msgid "Justified"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:530
+msgid ""
+"This controls the how your Overlay Caption Text is aligned within the space "
+"assigned it by the Hover Style. For example, a Hover Style may only assign "
+"50% of the width to caption text, so your caption will be aligned within "
+"that space."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:534
+msgid "Open Image in Lightbox"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:538
+#: includes/modules/ImageIntense/ImageIntense.php:553
+#: includes/modules/ImageIntense/ImageIntense.php:588
+#: includes/modules/ImageIntense/ImageIntense.php:647
+#: includes/modules/ImageIntense/ImageIntense.php:695
+#: includes/modules/ImageIntense/ImageIntense.php:744
+msgid "No"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:539
+#: includes/modules/ImageIntense/ImageIntense.php:554
+#: includes/modules/ImageIntense/ImageIntense.php:589
+#: includes/modules/ImageIntense/ImageIntense.php:648
+#: includes/modules/ImageIntense/ImageIntense.php:694
+#: includes/modules/ImageIntense/ImageIntense.php:745
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:545
+msgid ""
+"Selecting \"Yes\" will cause the module image to be opened up in a lightbox "
+"when clicked/tapped."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:549
+msgid "Use Image as URL"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:562
+msgid ""
+"Selecting \"Yes\" will give you the option to specify a URL that your "
+"module should open when it is clicked/tapped.  This works only if you "
+"select \"No\" to the \"Open Image in Lightbox\" option above."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:566
+msgid "Link URL"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:569
+msgid "Your module will go to this destination URL when clicked/tapped."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:573
+msgid "URL Opens"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:577
+msgid "In The Same Window"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:578
+#: includes/modules/ImageIntense/ImageIntense.php:613
+msgid "In A New Tab"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:580
+msgid ""
+"Here you can choose whether or not your link (not Lightbox) opens in a new "
+"window."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:584
+msgid "Include a Button"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:597
+msgid ""
+"Select \"Yes\" to add a styled/CTA button to your Image Intense module. Use "
+"the \"Design\" tab to style the button beyond the Divi theme defaults."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:601
+msgid "Button URL"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:604
+msgid "Input the destination URL for your Image Intense button."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:608
+msgid "Button Url Opens"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:612
+msgid "In The Same Tab"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:615
+msgid ""
+"Defines whether your Image Intense button opens its link in the same tab or "
+"a new one."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:619
+msgid "Button Text"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:622
+msgid "Input the text for your Image Intense button link."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:626
+msgid "Button Position"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:634
+msgid "Module Animation Direction"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:638
+msgid ""
+"Set the direction of the animation when the image comes into view on your "
+"page."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:643
+msgid "Remove Space Below The Image"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:650
+msgid "Selecting Yes will remove the default padding/margin below the image."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:655
+msgid "Image Alignment"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:663
+msgid "Select the alignment that will be used for the image within this column."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:668
+msgid "Image Max Width"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:675
+msgid ""
+"Input a value plus a unit of measurement. e.g. 100px or 25vh. Placing a "
+"value here will also allow you to set mobile options."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:690
+msgid "Always Center Image On Mobile"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:701
+msgid "Mix Blend Mode"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:710
+msgid "Image Opacity"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:719
+msgid ""
+"Set the image opacity (transparency) in the normal state. Valid values are "
+"anything between 0 and 1."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:725
+msgid "Image Opacity On Hover"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:734
+msgid "Set the image opacity (transparency) when hovered over."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:740
+msgid "Use Custom Overlay Gradient"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:764
+msgid "Overlay Gradient Orientation"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:774
+msgid "Overlay Beginning Stop Color"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:779
+msgid ""
+"Set the beginning overlay stop color. Hint: to get the same color/gradient "
+"on both normal and hover states, use the same colors and stop positions for "
+"both states."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:784
+msgid "Overlay Beginning Stop Position"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:793
+msgid ""
+"Set the % position of where the starting overlay color will begin to "
+"change. Your overlay gradient will be filled with the Beginning Stop Color "
+"until this point in your module."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:800
+msgid "Overlay Ending Stop Color"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:804
+msgid "Set the ending overlay stop color."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:809
+msgid "Overlay Ending Stop Position"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:818
+msgid ""
+"Set the % position of where the ending overlay color will stop changing. "
+"From this point on, your module will be overlayed with the Ending Stop "
+"Color."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:825
+msgid "Overlay Gradient Orientation On Hover"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:835
+msgid "Overlay Beginning Stop Color On Hover"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:840
+msgid ""
+"Set the beginning overlay stop color on hover. Hint: to get the same "
+"color/gradient on both normal and hover states, use the same colors and "
+"stop positions for both states."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:845
+msgid "Overlay Beginning Stop Position On Hover"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:854
+msgid ""
+"Set the % position of where the starting overlay color will begin to change "
+"on hover. Your overlay gradient will be filled with the Beginning Stop "
+"Color until this point in your module."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:861
+msgid "Overlay Ending Stop Color On Hover"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:865
+msgid "Set the ending overlay stop color on hover."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:870
+msgid "Overlay Ending Stop Position On Hover"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:879
+msgid ""
+"Set the % position of where the ending overlay color will stop changing on "
+"hover. From this point on, your module will be overlayed with the Ending "
+"Stop Color."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:886
+msgid "Disable on"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:889
+msgid "Phone"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:890
+msgid "Tablet"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:891
+msgid "Desktop"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:895
+msgid ""
+"This will disable (hide) Image Intense on the devices selected above, based "
+"on the native Divi media queries."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:900
+msgid "Admin Label"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:902
+msgid "This will set the module label within the Builder for easier identification."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:906
+msgid "CSS ID"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:914
+msgid "CSS Class"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:922
+msgid "Title Font Size"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:934
+msgid ""
+"Specify the font size for the Title 1 and Title 2 texts.  Additional Title "
+"styling options appear below."
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:947
+msgid "Caption Font Size"
+msgstr ""
+
+#: includes/modules/ImageIntense/ImageIntense.php:959
+msgid ""
+"Specify the font size for the Caption text.   Additional Caption styling "
+"options appear below."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+msgid "More information about %s"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Image Intense"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://besuperfly.com/product/image-intense/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A hybrid mix of the Image, Text and Button modules. Includes Superfly text, "
+"overlay, blend, hover, button and background effect options!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Superfly"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://besuperfly.com/about-superfly/"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:213
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:215
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:217
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""

@@ -1,0 +1,161 @@
+/* ======== */
+/* Clearfix */
+/* ======== */
+.free-archive-blog .free-archive-blog-normal .et_pb_post:after {
+	visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;
+}
+
+
+
+/* ==================== */
+/* Archive Post Styling */
+/* ==================== */
+.free-archive-blog .et_pb_row {
+	width: 100%;
+}
+.free-archive-blog .et_pb_post {
+	position: relative;
+}
+.free-archive-blog .et_pb_post .entry-title {
+    font-weight: 700!important;
+	font-size: 20px;
+	line-height: 1.3em;
+}
+.free-archive-blog .et_pb_post .post-meta, .free-archive-blog .et_pb_post .post-meta a {
+	color: #aaa!important;
+    font-size: 0px!important;
+	line-height: 1.4em;
+}
+.free-archive-blog .et_pb_post .post-meta span, .free-archive-blog .et_pb_post .post-meta a {
+	font-size: 13px!important;
+}
+.free-archive-blog .et_pb_post .post-meta span:before {
+    content: '-';
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.free-archive-blog .et_pb_post .post-meta span:first-child:before {
+	display: none;
+}
+
+.free-archive-blog .et_pb_post {
+	border: none;
+}
+.free-archive-blog .et_pb_post .more-link {
+	margin: 16px 0 8px 0;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+	color: #505cfd;
+    transition: all 0.3s ease;
+}
+.free-archive-blog .et_pb_post .more-link:after {
+    font-family: ETmodules;
+    content: '\39';
+    margin-left: 5px;
+    top: 1px;
+    position: relative;
+}
+.free-archive-blog .free-archive-blog-normal .et_pb_post .more-link:hover {
+	letter-spacing: 1px;
+}
+.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post .post-meta {
+	padding-bottom: 0!important;
+}
+
+.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post:not(.has-post-thumbnail) h2,
+	.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post:not(.has-post-thumbnail) .post-meta,
+		.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post:not(.has-post-thumbnail) .post-content {
+	margin-left: 0!important;
+}
+@media screen and (min-width: 701px) {
+	.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post:not(.has-post-thumbnail) .post-content {
+		margin-bottom: 8px!important;
+	}
+	
+	.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post.format-video h2,
+		.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post.format-video .post-meta,
+			.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post.format-video .post-content {
+		margin-left: 300px!important;
+	}
+	.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post.format-video .post-content {
+		margin-bottom: 0!important;
+	}
+}
+
+.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post {
+	margin-bottom: 0!important;
+    padding: 17px 0!important;
+}
+
+.free-archive-blog .free-blog-list-3.free-blog-big.free-archive-blog-individual {
+	margin-top: 0!important;
+}
+
+.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post .et_pb_slider {
+    width: 270px!important;
+    height: 180px!important;
+    float: left;
+    margin: 0!important;
+}
+
+@media screen and (max-width: 700px) {
+	.free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post .et_pb_slider, .free-archive-blog .free-blog-list-3.free-blog-big .et_pb_post .et_main_video_container {
+		float: none!important;
+		margin-right: 0!important;
+		margin-bottom: 21px!important;
+		width: 100%!important;
+		height: auto!important;
+	}
+}
+
+.free-archive-blog .free-archive-blog-individual .et_quote_content {
+	margin: 0!important;
+}
+
+
+/* ========================= */
+/* Archive Post Featured CSS */
+/* ========================= */
+
+.free-archive-blog .free-archive-blog-featured.free-blog-list-2.free-blog-medium .et_pb_post .et_main_video_container {
+	margin-bottom: 0!important;
+}
+.free-archive-blog .free-archive-blog-featured.free-blog-list-2.free-blog-medium .et_pb_post {
+	margin-bottom: 5%;
+}
+.free-archive-blog .free-archive-blog-featured.free-blog-list-2.free-blog-medium .et_pb_post:not(.has-post-thumbnail):before {
+    content: '';
+    display: block;
+    position: absolute!important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+    pointer-events: none;
+	transition: all 0.3s ease;
+	background: transparent;
+}
+
+/* ====================== */
+/* Archive Post Hover CSS */
+/* ====================== */
+
+.free-archive-blog .et_pb_post, .free-archive-blog .et_pb_post .free-background-overlay:before {
+	transition: all 0.3s ease;
+}
+.free-archive-blog .et_pb_post .free-background-overlay:before {
+	background: transparent!important;
+}
+.free-archive-blog .et_pb_post:hover .free-background-overlay:before {
+	background: rgba(255,255,255,0.2)!important;
+}
+.free-archive-blog .free-archive-blog-featured .et_pb_post:hover .free-background-overlay:before,
+	.free-archive-blog .free-archive-blog-featured.free-blog-list-2.free-blog-medium .et_pb_post:hover:before {
+	background: rgba(0,0,0,0.4)!important;
+}

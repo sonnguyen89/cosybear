@@ -1,0 +1,418 @@
+html.et-fb-root-ancestor .free-custom-footer article.et-fb-root-ancestor {
+	padding-bottom: 100px;
+}
+
+.dp_regular_menu .fullwidth-menu li li a{width:200px;padding:6px 20px}
+.dp_regular_menu .fullwidth-menu .menu-item-has-children>a:first-child:after{position:absolute;top:0;right:0;font-family:ETmodules;font-size:16px;font-weight:800;content:"3"}
+.dp_regular_menu .fullwidth-menu .menu-item-has-children>a:first-child{padding-right:20px}
+.dp_regular_menu .fullwidth-menu li li.menu-item-has-children>a:first-child:after{top:6px;right:20px}
+.dp_regular_menu .fullwidth-menu li{display:inline-block;padding-right:22px;font-size:14px}
+.dp_regular_menu .fullwidth-menu>li:last-child{padding-right:0}
+.dp_regular_menu .fullwidth-menu a{display:block;position:relative;color:rgba(0,0,0,.6);text-decoration:none;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.dp_regular_menu .fullwidth-menu a:hover{opacity:.7;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.dp_regular_menu .fullwidth-menu li>a{padding-bottom:29px;word-wrap:break-word}
+@media all and (max-width:980px){.dp_regular_menu .fullwidth-menu{display:none}.dp_regular_menu .et_mobile_nav_menu{display: block!important}}
+
+.free-menu-padding-small .fullwidth-menu-nav>ul>li>a:after, .free-header-menu .fullwidth-menu-nav>ul>li>a:after {
+    top: 1px!important;
+}
+
+.et-fb-settings-option-inner-upload--previewable:after {
+    content: 'Image URL';
+}
+
+
+#page-container .free-menu-padding-small .fullwidth-menu-nav>ul, #page-container .free-menu-padding-small .fullwidth-menu-nav>ul>li {
+    padding: 0!important;
+	margin: 0!important;
+}
+#page-container .free-header-menu .fullwidth-menu-nav>ul, #page-container .free-header-menu .fullwidth-menu-nav>ul>li,
+	.et-db #page-container #et-boc .et_pb_fullwidth_menu.free-header-menu .fullwidth-menu-nav>ul,
+		#page-container-bfb .free-header-menu .fullwidth-menu-nav>ul, #page-container-bfb .free-header-menu .fullwidth-menu-nav>ul>li {
+    padding: 0!important;
+	margin: 0!important;
+}
+
+html:not(.et-fb-root-ancestor) #et-main-area>div:first-child {
+    z-index: 2;
+	position: relative;
+}
+.free-du-plugin-footer {
+    z-index: 1!important;
+}
+
+/* ========================= */
+/* Vertical Navigation Start */
+/* ========================= */
+
+/* Admin Bar */
+
+body #wpadminbar {
+    position: fixed;
+}
+
+/* Visual Builder */
+
+html.et-fb-root-ancestor:not(.et-fb-preview--wireframe) .free-vertical-navigation {
+	min-height: calc(100vh - 32px)!important;
+    position: absolute!important;
+}
+
+html.et-fb-root-ancestor:not(.et-fb-preview--wireframe) body.free-vertical-navigation-body-tag #page-container-bfb .et-fb-post-content .et_pb_section:not(.free-vertical-navigation) {
+	float: left;
+    width: 100%;
+}
+
+html.et-fb-root-ancestor:not(.et-fb-preview--wireframe) .free-vertical-navigation-breakpoint-show .et_pb_module .et-pb-draggable-spacing {
+    display: none!important;
+}
+
+#page-container .dp_regular_menu:not(li), #page-container-bfb .dp_regular_menu:not(li) {
+    margin-bottom: 0;
+    z-index: -1;
+	position: static;
+}
+
+html.et-fb-root-ancestor:not(.et-fb-preview--wireframe) .et_mobile_nav_menu {
+    float: none;
+}
+
+/* General CSS */
+
+.free-vertical-navigation-wrapper, .free-vertical-navigation {
+	z-index: 99998!important;
+}
+
+.free-vertical-navigation {
+    min-height: 100vh;
+}
+body.admin-bar .free-vertical-navigation {
+    min-height: calc(100vh - 32px);
+}
+.free-vertical-navigation-wrapper {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+.free-vertical-navigation {
+	overflow: visible!important;
+}
+body.admin-bar .free-vertical-navigation-wrapper {
+    height: calc(100vh - 32px);
+}
+html.et-fb-root-ancestor .free-vertical-navigation>.et-pb-draggable-spacing__right.et-pb-draggable-spacing__margin {
+	display: none!important;
+}
+.free-vertical-navigation .fullwidth-menu-nav>ul>li {
+    display: block;
+}
+.free-vertical-navigation .free-absolute-bottom {
+	position: absolute!important;
+	bottom: 0;
+	z-index: 1!important;
+}
+.free-vertical-navigation .et_mobile_nav_menu {
+	display: none!important;
+}
+.free-vertical-navigation .fullwidth-menu-nav, .free-vertical-navigation .fullwidth-menu {
+	display: block!important;
+}
+.free-vertical-navigation .dp_regular_menu {
+	padding: 0!important;
+}
+@media screen and (max-width: 980px) {
+	html.et-fb-root-ancestor:not(.et-fb-preview--wireframe) .free-vertical-navigation {
+		display: none!important;
+	}
+}
+html:not(.et-fb-root-ancestor) .free-vertical-navigation-explain {
+	display: none!important;
+}
+html.et-fb-root-ancestor .free-vertical-navigation-explain-code.et_pb_code {
+    background: #151515!important;
+	outline: 4px double rgba(255, 255, 255, 0.76);
+    outline-offset: -18px;
+}
+html.et-fb-root-ancestor .free-vertical-navigation-explain-code.et_pb_code:before {
+    content: 'More settings on Vertical Navigation (changing the width, custom breakpoint, etc.) can be found in Theme Customizer > Divi Powerful Settings > Vertical Navigation.';
+    display: block;
+    position: relative;
+    padding: 38px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.7em;
+}
+
+/* Menu General CSS */
+
+.free-vertical-navigation .et_pb_submenu_opened.free-menu-item-has-children>a:first-child>.free-menu-arrow:before {
+    transform: rotate(180deg);
+}
+#page-container .free-vertical-navigation .fullwidth-menu-nav ul li a,
+	#page-container-bfb .free-vertical-navigation .fullwidth-menu-nav ul li a {
+	padding: 12px 10% 12px 10%!important;
+}
+#page-container .free-vertical-navigation .fullwidth-menu-nav ul li li a,
+	#page-container-bfb .free-vertical-navigation .fullwidth-menu-nav ul li li a {
+	padding-left: 13%!important;
+}
+.free-vertical-navigation .fullwidth-menu-nav ul li li {
+	padding: 0!important;
+}
+.free-vertical-navigation .fullwidth-menu-nav ul li ul.sub-menu {
+	top: 0;
+}
+
+/* Menu Collapsible CSS */
+
+.free-vertical-navigation-wrapper:not(.free-menu-collapsible) .et_pb_section:not(.free-menu-collapsible) .et_pb_row:not(.free-menu-collapsible) .et_pb_column:not(.free-menu-collapsible) .et_pb_fullwidth_menu:not(.free-menu-collapsible) .fullwidth-menu-nav>ul>li ul.sub-menu {
+	display: block!important;
+}
+.free-vertical-navigation.free-menu-collapsible {
+	overflow-x: hidden!important;
+	overflow-y: auto!important;	
+}
+.free-menu-collapsible .fullwidth-menu-nav ul li ul.sub-menu {
+    position: relative!important;
+	display: none;
+    visibility: visible!important;
+    opacity: 1!important;
+	width: 100%!important;
+    padding: 0!important;
+    border: none!important;
+	box-shadow: none!important;
+    left: 0!important;
+    top: 0!important;
+}
+#page-container .free-menu-collapsible .fullwidth-menu-nav ul li ul.sub-menu,
+	#page-container-bfb .free-menu-collapsible .fullwidth-menu-nav ul li ul.sub-menu {
+    left: 0!important;
+}
+.free-menu-collapsible ul li ul {
+	transition: none!important;
+}
+.free-menu-collapsible .et_pb_fullwidth_menu .fullwidth-menu li.menu-item-has-children>a:first-child:after {
+    position: absolute!important;
+    top: 13px!important;
+    right: 22px!important;
+    line-height: 1em!important;
+    font-size: inherit!important;
+	transition: all 0.5s ease;
+}
+.free-menu-collapsible .et_pb_fullwidth_menu .fullwidth-menu li.et_pb_submenu_opened.menu-item-has-children>a:first-child:after {
+    transform: rotate(180deg);
+}
+
+/* Menu Arrow CSS */
+
+body:not(.free-menu-collapsible-arrow-only) .free-menu-collapsible-trigger {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	opacity: 0;
+}
+
+.free-vertical-navigation .free-menu-arrow, body.free-menu-collapsible-arrow-only .free-menu-collapsible-trigger {
+    position: relative;
+    float: right;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: -12px;
+    margin-right: -12px;
+}
+.free-vertical-navigation .free-menu-arrow:before, body.free-menu-collapsible-arrow-only .free-menu-collapsible-trigger:before {
+    z-index: 999;
+    font-size: 1.2em;
+    text-align: center;
+    content: "3";
+    font-family: ETmodules;
+    font-weight: 400;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+	display: inline-block;
+	transition: transform 0.5s ease;
+	position: relative;
+    top: 1px;
+}
+
+body.free-menu-collapsible-arrow-only .free-menu-collapsible-trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: inherit;
+	opacity: 0;
+}
+
+/* Additional Sticky CSS */
+
+#page-container .free-sticky-wrapper {
+	z-index: 99996;
+}
+#page-container .free-sticky-wrapper.free-sticky-wrapper-2 {
+	z-index: 99995;
+}
+#page-container .free-sticky-wrapper.free-sticky-wrapper-3 {
+	z-index: 99994;	
+}
+#page-container .free-sticky-wrapper.free-sticky-wrapper-4 {
+	z-index: 99993;	
+}
+#page-container .free-sticky-wrapper.free-sticky-wrapper-5 {
+	z-index: 99992;	
+}
+@media screen and (max-width: 980px) {
+    .free-sticky-wrapper.free-sticky-mobile-show-wrapper {
+        display: block!important;
+    }
+}
+
+/* Hamburger icon CSS */
+
+.free-hamburger-icon .fullwidth-menu-nav, .free-hamburger-icon .et_mobile_menu {
+    display: none!important;
+}
+.free-hamburger-icon .et_mobile_nav_menu {
+    display: block!important;
+}
+
+/* Toggle Overlay CSS */
+
+body.free-vertical-navigation-overlay-show.free-vertical-navigation-overlay-left .free-vertical-navigation-wrapper,
+	body.free-vertical-navigation-overlay-show.free-vertical-navigation-overlay-right .free-vertical-navigation-wrapper {
+	transform: translateX(0%)!important;
+}
+
+/* Background Overlay CSS */
+
+.free-vertical-navigation-background-overlay {
+	opacity: 0;
+	visibility: hidden;
+	z-index: 99997!important;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+body.free-vertical-navigation-overlay-show .free-vertical-navigation-background-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Close Button CSS */
+
+.free-vertical-navigation-close .et_pb_blurb_container {
+	display: none!important;
+}
+.free-vertical-navigation-close {
+	display: inline-block!important;
+	cursor: pointer!important;
+}
+.free-vertical-navigation-close, .free-vertical-navigation-close .et_pb_main_blurb_image {
+	margin: 0!important;
+}
+#page-container .free-vertical-navigation-close-wrapper,
+	#page-container-bfb .free-vertical-navigation-close-wrapper {
+	z-index: 3!important
+}
+
+/* Menu Hover CSS */
+
+body.free-vertical-navigation-custom-menu-hover .fullwidth-menu a:hover {
+    opacity: 1!important;
+}
+
+.free-vertical-navigation-menu-hover-1 .free-vertical-navigation nav>ul>li>a:before {
+content: '';
+    display: block;
+    width: 0;
+    background: #e51b23;
+    transition: width .1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.free-vertical-navigation-menu-hover-1 .free-vertical-navigation nav>ul>li:hover>a:before {
+    width: 4px;
+}
+
+.free-vertical-navigation-menu-hover-2 .free-vertical-navigation nav>ul>li>a:before {
+    content: '';
+    display: block;
+    width: 0;
+    background: #e51b23;
+    transition: width .35s;
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+.free-vertical-navigation-menu-hover-2 .free-vertical-navigation nav>ul>li:hover>a:before {
+    width: 100%;
+}
+
+.free-vertical-navigation-menu-hover-3 .free-vertical-navigation nav>ul>li>a {
+	transition: background-color .3s;
+}
+.free-vertical-navigation-menu-hover-3 .free-vertical-navigation nav>ul>li:hover>a {
+	background-color: #e51b23;
+}
+.free-vertical-navigation-menu-hover-3 .free-vertical-navigation nav>ul>li:hover>a {
+	color: #fff!important;
+}
+
+/* Menu Style 1 CSS */
+
+.free-vertical-navigation .free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul>li {
+    border-bottom: 1px solid rgba(35,35,35,0.12);
+}
+.free-vertical-navigation .free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul>li:first-child {
+	border-top: 1px solid rgba(35,35,35,0.12);
+}
+.free-menu-collapsible .free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul ul li,
+	.free-menu-collapsible.free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul ul li {
+	border-top: 1px solid rgba(35,35,35,0.12);
+}
+
+.free-vertical-navigation .free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul>li>a>.free-menu-arrow {
+    margin-right: -12.5%!important;
+    margin-top: -13px!important;
+    border-left: 1px solid rgba(35,35,35,0.12);
+    line-height: 1.5em;
+    margin-bottom: -1px;
+}
+.free-menu-collapsible .free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul ul li .free-menu-arrow,
+	.free-menu-collapsible.free-vertical-navigation-menu-style-1 .fullwidth-menu-nav>ul ul li .free-menu-arrow {
+    margin-right: -13%!important;
+    margin-top: -13px!important;
+    border-left: 1px solid rgba(35,35,35,0.12);
+    line-height: 1.5em;
+    margin-bottom: -1px;
+	margin-left: 10px;
+}
+
+body.free-menu-collapsible-arrow-only .free-vertical-navigation-menu-style-1 .free-menu-collapsible-trigger {
+    padding-right: 12px!important;
+}
+
+/* ======================= */
+/* Vertical Navigation End */
+/* ======================= */

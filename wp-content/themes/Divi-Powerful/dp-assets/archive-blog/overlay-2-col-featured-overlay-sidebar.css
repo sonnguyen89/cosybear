@@ -1,0 +1,161 @@
+/* =============================== */
+/* Archive Post 1/2 With Featured */
+/* ============================= */
+
+@media screen and (min-width: 981px) {
+    .free-archive-blog .et_pb_column_1_2:nth-child(2n+1) {
+        margin-right: 0!important;
+    }
+	.free-archive-blog .et_pb_column_1_2:nth-child(2n+2) {
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 980px) and (min-width: 675px) {
+	.free-archive-blog .et_pb_gutters2 .et_pb_column_1_2, .free-archive-blog .et_pb_gutters2.et_pb_row .et_pb_column_1_2,
+		.free-archive-blog .et_pb_gutters2 .et_pb_column_1_3, .free-archive-blog .et_pb_gutters2.et_pb_row .et_pb_column_1_3 {
+		width: 48.5%;
+	}
+	.free-archive-blog .et_pb_gutters1 .et_pb_column_1_2, .free-archive-blog .et_pb_gutters1.et_pb_row .et_pb_column_1_2,
+		.free-archive-blog .et_pb_gutters1 .et_pb_column_1_3, .free-archive-blog .et_pb_gutters1.et_pb_row .et_pb_column_1_3 {
+		width: 50%;
+	}
+	.free-archive-blog .et_pb_column_1_2:nth-child(2n+1),
+		.free-archive-blog .et_pb_column_1_3:nth-child(2n+1) {
+		margin-right: 0!important;
+	}
+	.free-archive-blog .et_pb_column_1_2:nth-child(2n+2),
+		.free-archive-blog .et_pb_column_1_3:nth-child(2n+2) {
+		clear: both;
+	}
+	.free-archive-blog .et_pb_gutters2 .et_pb_column, .free-archive-blog .et_pb_gutters2.et_pb_row .et_pb_column {
+		margin-right: 3%;
+	}
+}
+
+
+/* ============== */
+/* Gutter Width 2 */
+/* ============== */
+@media screen and (min-width: 981px) {
+	.free-archive-blog .et_pb_gutters2 .et_pb_post {
+		margin-bottom: 7%;
+	}
+}
+@media screen and (min-width: 981px) {
+	.free-archive-blog .et_pb_gutters2 .free-archive-blog-featured .et_pb_post {
+		margin-bottom: 3.5%;
+	}
+}
+@media screen and (max-width: 980px) {
+	.free-archive-blog .et_pb_gutters2 .et_pb_post {
+		margin-bottom: 5.5%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.free-archive-blog .et_pb_gutters2 .et_pb_post {
+		margin-bottom: 9.5%;
+	}
+}
+@media screen and (max-width: 479px) {
+	.free-archive-blog .et_pb_gutters2 .et_pb_post {
+		margin-bottom: 11.5%;
+	}
+}
+
+
+/* ================= */
+/* Overlay Blog Post */
+/* ================= */
+.free-archive-blog .et_pb_column {
+	margin-bottom: 0;
+}
+
+/* ==================== */
+/* Archive Post Styling */
+/* ==================== */
+.free-archive-blog .et_pb_row {
+	width: 100%;
+}
+.free-archive-blog .et_pb_post {
+	position: relative;
+	border: none;
+}
+.free-archive-blog .et_pb_post .entry-title {
+    font-weight: 700!important;
+	font-size: 20px;
+	line-height: 1.3em;
+}
+.free-archive-blog .et_pb_post .post-meta, .free-archive-blog .et_pb_post .post-meta a {
+	color: rgba(255,255,255,0.82)!important;
+    font-size: 0px!important;
+	line-height: 1.4em;
+	font-weight: 400;
+}
+.free-archive-blog .et_pb_post .post-meta span, .free-archive-blog .et_pb_post .post-meta a {
+	font-size: 13px!important;
+}
+.free-archive-blog .et_pb_post .post-meta span:before {
+    content: '-';
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.free-archive-blog .et_pb_post .post-meta span:first-child:before {
+	display: none;
+}
+
+.free-archive-blog .et_pb_post .free-post-meta-category-extra {
+	position: absolute;
+    top: 18px;
+    right: 18px;
+	margin-left: 18px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	z-index: 2;
+}
+.free-archive-blog .et_pb_post .free-post-meta-category-extra a {
+	text-transform: uppercase;
+    font-weight: 700;
+	font-size: 11px!important;
+	letter-spacing: 1px;
+    padding: 8px 12px;
+    border-radius: 100px;
+    display: inline-block;
+	margin-bottom: 6px;
+	line-height: 1.4em;
+}
+.free-archive-blog .et_pb_post .post-meta .free-post-meta-category, .free-archive-blog .et_pb_post .post-meta .free-post-meta-category:before {
+	display: none;
+}
+.free-archive-blog .et_pb_post:not(.has-post-thumbnail):before {
+    content: '';
+    display: block;
+    position: absolute!important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+    pointer-events: none;
+	transition: all 0.3s ease;
+	background: transparent;
+}
+
+
+/* ====================== */
+/* Archive Post Hover CSS */
+/* ====================== */
+
+.free-archive-blog .et_pb_post, .free-archive-blog .et_pb_post .free-background-overlay:before {
+	transition: all 0.3s ease;
+}
+.free-archive-blog .et_pb_post .free-background-overlay:before {
+	background: transparent!important;
+}
+.free-archive-blog .et_pb_post:hover .free-background-overlay:before, .free-archive-blog .et_pb_post:hover:before {
+	background: rgba(0,0,0,0.4)!important;
+}

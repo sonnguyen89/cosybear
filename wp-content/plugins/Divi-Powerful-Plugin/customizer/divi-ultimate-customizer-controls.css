@@ -1,0 +1,33 @@
+#customize-control-divi_powerful_plugin_vertical_navigation_no_breakpoint,
+	#customize-control-divi_powerful_plugin_vertical_navigation_menu_collapsible_arrow_only {
+	margin-top: 18px!important;
+}
+#customize-control-divi_powerful_plugin_vertical_navigation_no_breakpoint {
+	margin-bottom: 4px!important;
+}
+
+#customize-control-divi_powerful_plugin_vertical_navigation_breakpoint .customize-control-description {
+    margin-top: 10px!important;
+    line-height: 1.2em!important;
+}
+#customize-control-divi_powerful_plugin_vertical_navigation_width .customize-control-title {
+    margin-bottom: 2px!important;
+}
+#customize-control-divi_powerful_plugin_vertical_navigation_no_breakpoint label, #customize-control-divi_powerful_plugin_vertical_navigation_menu_collapsible_arrow_only label {
+    padding-left: 36px!important;
+    display: inline-block!important;
+    margin-top: -26px!important;
+}
+
+#customize-control-divi_powerful_plugin_vertical_navigation_description .customize-control-notifications-container, #customize-control-divi_powerful_plugin_vertical_navigation_description input {
+	display: none!important;
+}
+#customize-control-divi_powerful_plugin_vertical_navigation_description label {
+    background: #151515;
+    color: #fff;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: -15px;
+    padding: 12px;
+    pointer-events: none;
+}

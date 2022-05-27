@@ -1,0 +1,27 @@
+#customize-control-divi_powerful_widget_custom_header_settings, #customize-control-divi_powerful_footer_reveal, #customize-control-divi_powerful_blog_post_navigation_same_category {
+	margin-top: 18px!important;
+    margin-bottom: 4px!important;
+}
+
+#customize-control-divi_powerful_widget_header_size_settings {
+	margin-bottom: 16px!important;
+}
+
+#customize-control-divi_powerful_header_mega_menu_fix, #customize-control-divi_powerful_blog_post_header_custom_title_uppercase, #customize-control-divi_powerful_widget_header_uppercase_settings,
+	#customize-control-divi_powerful_global_popup_last_menu, #customize-control-divi_powerful_last_menu_item_button_uppercase,
+		#customize-control-divi_powerful_mobile_menu_collapse {
+	margin-top: 18px!important;
+}
+#customize-control-divi_powerful_header_show_cart, #customize-control-divi_powerful_widget_header_uppercase_settings {
+	margin-bottom: 4px!important;
+}
+
+[id^="accordion-panel-divi_powerful"].control-panel .accordion-section-title, [id^="accordion-section-divi_powerful"].control-section .accordion-section-title {
+	background-color: #f0f0ff!important;
+}
+
+[id^="customize-control-divi_powerful"].customize-control-checkbox .description {
+	font-size: 11px!important;
+    margin-top: 10px!important;
+    color: #aaa!important;
+}
